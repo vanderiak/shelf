@@ -1,0 +1,17 @@
+.writing-vertical-rl {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+        }
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+        }
+.book-spine:hover {
+    z-index: 50;
+    transform: translateY(-8px);}
+.book-spine {
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;}.texture-leather, .texture-canvas {
+    background-image: none;background-color: currentColor;}
